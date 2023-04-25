@@ -21,7 +21,7 @@ ________________________________________________________________________________
 <h1> Password for ArgoCD Admin </h1>
 
 
-[cmd]   kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+[cmd]     kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 _________________________________________________________________________________________________________________
 
